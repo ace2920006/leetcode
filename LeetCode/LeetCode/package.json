@@ -1,0 +1,23 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "Gamified coding platform monorepo",
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "dev:backend": "npm --prefix backend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint"
+  },
+  "keywords": [
+    "gamified",
+    "coding",
+    "platform"
+  ],
+  "author": "Cursor Agent",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
